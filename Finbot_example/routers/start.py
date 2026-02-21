@@ -8,7 +8,7 @@ start_router = Router()
 
 
 @start_router.message(Command("start"))
-async def handle_tart(message: Message):
+async def handle_start(message: Message):
     await message.reply(
         text="Привіт я фінансовий бот. "
              "Просто напиши мені свою витрату, а я запам'ятаю"
